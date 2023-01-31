@@ -16,7 +16,7 @@ export default {
     const ninjaOne = ref({ name: 'Mario', age: 32 });
     const ninjaTwo = reactive({ name: 'Toma', age: 35 });
     let nameOne = ref('Mario');
-    let nameTwo = reactive('name22222');
+    let nameTwo = reactive('name2');
     const updateNinjaOne = () => {
       ninjaOne.value.age = 40;
     }
