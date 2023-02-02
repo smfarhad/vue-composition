@@ -1,12 +1,13 @@
 <template>
     <div>
         <h1>Posts View</h1>
-        <p>sfsf </p>
+        <PostList />
     </div>
 </template>
 
 <script>
 import { ref } from "vue";
+import PostList from '../components/'
 export default {
     name: "Posts",
     setup() {
