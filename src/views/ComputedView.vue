@@ -6,6 +6,7 @@
         <ul>
             <li v-for="name in matchingNames" :key="name"> {{ name }} </li>
         </ul>
+        {{ names }}
         <button @click="handleWatch">Stop watch</button>
     </div>
 </template>
@@ -24,6 +25,7 @@ export default {
         const stopWatch = watch(search, () => {
             console.log('watch function');
         });
+
         const stopEffect = watchEffect(() => {
             console.log('watcheffect function', search.value);
         });
