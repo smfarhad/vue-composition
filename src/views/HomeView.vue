@@ -14,7 +14,7 @@ import { ref } from 'vue';
 export default {
   name: 'Home',
   setup() {
-    console.log(this);
+    //console.log(this);
     const p = ref(null);
     let name = ref('mario')
     let age = ref(31)

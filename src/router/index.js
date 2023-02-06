@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/HomeView.vue'
 import About from '../views/AboutView.vue'
 import Compute from '../views/ComputedView.vue'
-import Posts from '../components/PostList.vue'
+import Posts from '../views/PostView.vue'
 const routes = [
   {
     path: '/',

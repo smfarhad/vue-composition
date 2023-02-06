@@ -1,14 +1,15 @@
 <template>
     <div>
-        <h1>Posts View</h1>
-        {{ names }}
+        <h1>Post View</h1>
+        <PostList :posts="posts" />
+
     </div>
 </template>
 <script>
-// import PostList from '../components/PostList.vue'
+import PostList from '../components/PostList.vue'
 import { ref } from "vue";
 export default {
-    name: "PostPage",
+    name: "PostView",
     components: { PostList },
     setup() {
         const names = ref(['Farhad', 'Jewel', 'Akib', 'Rana', 'Shohag']);
