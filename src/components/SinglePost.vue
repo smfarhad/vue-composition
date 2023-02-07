@@ -10,9 +10,9 @@ import { computed } from 'vue'
 export default {
     props: ['post'],
     setup(props) {
-        const snippet = computed(){
+        const snippet = computed(() => {
 
-        }
+        });
     }
 }
 </script>
