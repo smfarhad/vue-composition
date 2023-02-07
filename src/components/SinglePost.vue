@@ -6,8 +6,14 @@
 </template>
 
 <script>
+import { computed } from 'vue'
 export default {
-    props: ['post']
+    props: ['post'],
+    setup(props) {
+        const snippet = computed(){
+
+        }
+    }
 }
 </script>
 
